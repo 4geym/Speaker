@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: seagreen;
+}
+div {
+    border-radius: 15px;
+    background: sandybrown;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 40px;
+}
+.message {
+    width: 80%;
+    height: 5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+.speak {
+    height: 30px;
+    width: 100px;
+    background: transparent;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.speak:hover {
+    transform: translateY(-2px);
+}
